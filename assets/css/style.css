@@ -11281,7 +11281,8 @@ p {
 }
 
 .pricing-wrapper .pricing-card-footer span {
-  font-size: calc(18px + (35 - 18) * ((100vw - 300px) / (1300 - 300)));
+  /* font-size: calc(18px + (35 - 18) * ((100vw - 300px) / (1300 - 300))); */
+  font-size: 25px;
   font-weight: 600;
   opacity: .8;
 }
@@ -11290,7 +11291,8 @@ p {
   position: relative;
   right: -6px;
   top: -6px;
-  font-size: calc(15px + (25 - 15) * ((100vw - 300px) / (1300 - 300)));
+  /* font-size: calc(15px + (25 - 15) * ((100vw - 300px) / (1300 - 300))); */
+  font-size: 15px;
 }
 
 .pricing-wrapper .pricing-card-title {
@@ -12225,3 +12227,7 @@ pre .code {
   filter: drop-shadow(0px 1000px 0 black);
   transform: translateY(-1000px);
 }
+
+/* .pricing-card-footer span{
+  font-size: 40px;
+} */
