@@ -12229,6 +12229,8 @@ pre .code {
   transform: translateY(-1000px);
 }
 
-/* .pricing-card-footer span{
-  font-size: 40px;
-} */
+.pricing-card-footer{
+  display: flex;
+    justify-content: center;
+    gap: 10px;
+}
